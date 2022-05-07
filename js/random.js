@@ -41,6 +41,7 @@ function getRandom() {
             find_path_btn.href = `https://map.kakao.com/link/search/고려대학교+${result}`;
             } else {
                 board.innerHTML = `뭐라도 골라야지...`;
+                find_path_btn.href = ``;
             }
             
     });
