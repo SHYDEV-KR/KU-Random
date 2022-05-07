@@ -7,7 +7,7 @@ function init() {
 }
 
 function getRandom() {
-fetch('/data.json')
+fetch('https://shydev-kr.github.io/KU-Random/data.json')
 .then(response => {
     return response.json();
 })
