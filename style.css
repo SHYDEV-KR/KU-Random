@@ -1,0 +1,59 @@
+* {
+    font-family: 'Jua', sans-serif;
+}
+
+body {
+    background-color: #FFCCCC;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+#title {
+    width: 250px;
+    margin: 50px 0;
+
+}
+
+.d-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-container {
+    width: 250px;
+}
+
+#board {
+    height: 115px;
+    width: 100%;
+}
+
+#tag-container {
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+#tag-container::-webkit-scrollbar {
+    display: none;
+}
+
+.tag {
+    width: max-content;
+    height: 32px;
+    padding: 5px 15px;
+    display: inline-block;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
