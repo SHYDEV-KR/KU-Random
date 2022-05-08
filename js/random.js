@@ -10,7 +10,7 @@ for (let i = 0; i < tags.length; i++) {
 }
 
 function init() {
-    board.innerHTML = "아래 버튼을 눌럿";
+    board.innerHTML = "뺄 거 빼고<br>아래 버튼을 눌럿";
 }
 
 function getRandom() {

@@ -20,7 +20,7 @@ h4 {
 #title {
     width: 250px;
     margin: 50px 0;
-
+    text-align: center;
 }
 
 .d-shadow {
@@ -64,4 +64,24 @@ h4 {
 
 .clicked {
     opacity: 25%;
+}
+
+#run-btn {
+    background-color: #F38181;
+}
+
+#find-path-btn {
+    background-color: #FCE38A;
+}
+
+.hits {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.github {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
